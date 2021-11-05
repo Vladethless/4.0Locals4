@@ -6760,14 +6760,16 @@ Main Footer
 .main-footer .footer-widget{
 	position:relative;
 }
-
+#right{
+	padding-right: 80px;
+}
 .main-footer .footer-column .widget-title{
 	position: relative;
 	font-size:24px;
 	font-weight:700;
 	color:#ffffff;
 	line-height: 30px;
-	margin-bottom:35px;
+
 }
 
 .main-footer .about-widget{
