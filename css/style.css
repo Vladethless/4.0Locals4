@@ -1553,7 +1553,7 @@ Section Title
 	font-family: 'Playfair Display', sans-serif;
 }
 
-.sec-title h2{
+.sec-title h1{
 	position: relative;
 	display: block;
 	font-size: 48px;
@@ -1615,7 +1615,7 @@ Page Title
 	position:relative;
 }
 
-.page-title h2{
+.page-title h1{
 	position:relative;
 	color:#ffffff;
 	font-size:36px;
@@ -2072,7 +2072,7 @@ Banner Section Three
 	content: "";
 }
 
-.banner-section-three h2{
+.banner-section-three p{
 	font-size: 72px;
 	line-height: 90px;
 	color: #ffffff;
@@ -2085,14 +2085,15 @@ Banner Section Three
 	-webkit-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
+	font-family: 'Playfair Display', serif;
 }
 
-.banner-section-three h2 u{
+.banner-section-three p u{
 	position: relative;
 	text-decoration: none;
 }
 
-.banner-section-three h2 u:before{
+.banner-section-three p u:before{
 	position: absolute;
 	left: 0;
 	bottom: 5%;
@@ -2101,7 +2102,7 @@ Banner Section Three
 	content: "";
 }
 
-.banner-section-three .active h2{
+.banner-section-three .active p{
 	opacity: 1;
 	-webkit-transform: translateY(0);
 	-ms-transform: translateY(0);
@@ -2553,7 +2554,7 @@ About Section Two
 	margin-left: -28px;
 }
 
-.about-section-two .content-column .sec-title h2{
+.about-section-two .content-column .sec-title h1{
 	line-height: 62px;
 }
 
@@ -2681,10 +2682,11 @@ About Section Three
 .about-section-three .counter-title{
 	position: relative;
 	display: block;
-	font-size:18px;
+	font-size:19px;
 	line-height:24px;
 	font-weight:700;
 	color:#ffffff;
+	font-family: 'Playfair Display', serif;
 }
 
 .about-section-three .btn-box{
@@ -4580,7 +4582,7 @@ Services Section
 	box-shadow: 0 25px 60px rgba(0,0,0,0.10);
 }
 
-.service-block h4{
+.service-block h3{
 	font-size: 30px;
 	line-height: 1em;
 	color: #000000;
@@ -4591,7 +4593,7 @@ Services Section
 	transition: all 300ms ease;
 }
 
-.service-block h4 a{
+.service-block h3 a{
 	color: inherit;
 }
 
@@ -4624,7 +4626,7 @@ Services Section
 }
 
 .services-section.style-two .service-block .text, 
-.services-section.style-two .service-block h4{
+.services-section.style-two .service-block h3{
 	color: #ffffff;
 }
 
@@ -5055,6 +5057,7 @@ Testimonial Section Two
 	color: #1b212f;
 	font-weight: 700;
 	margin-bottom: 10px;
+	font-family: 'Playfair Display', serif;
 }
 
 .testimonial-block-two .designation{
@@ -5404,12 +5407,13 @@ Experience Section
 	padding-top: 40px;
 }
 
-.experience-section h3{
+.experience-section p{
 	font-size: 30px;
 	line-height: 44px;
 	color: #000000;
 	font-weight: 700;
 	margin-bottom: 20px;
+	font-family: 'Playfair Display', serif;
 }
 
 .experience-section .text{
