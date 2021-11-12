@@ -4429,15 +4429,16 @@ Packages Section Four
 	margin-right: 10px;
 }
 
-.package-block-four h5{
+.package-block-four h3{
 	font-size: 24px;
 	line-height: 36px;
 	color: #000000;
 	font-weight: 700;
 	margin-bottom: 13px;
+	font-family: 'Playfair Display', serif;
 }
 
-.package-block-four h5 a{
+.package-block-four h3 a{
 	color: #1b212f;
 }
 
