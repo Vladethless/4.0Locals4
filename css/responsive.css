@@ -866,6 +866,9 @@
 
 
 @media only screen and (max-width: 599px){
+	.line{
+		display: block;
+	}
 	.banner-section{
 		padding-top: 150px;
 	}
