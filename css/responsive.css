@@ -106,6 +106,7 @@
 
 	.experience-section .content-column .inner-column{
 		padding: 0;
+		text-align: center;
 	}
 
 	.experience-section{
@@ -866,6 +867,12 @@
 
 
 @media only screen and (max-width: 599px){
+	.banner-section-three p{
+		font-size: 60px;
+	}
+	.float-right{
+		float: left !important;
+	}
 	.line{
 		display: block;
 	}
